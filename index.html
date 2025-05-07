@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Página do Jogo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+      background-color: green;
+      
+      color: #fff; 
+    }
+
+    h1 {
+      color: #fff;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    iframe {
+      width: 80%;
+      height: 400px;
+      border: 2px solid #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      background-color: white;
+    }
+
+    .botao-nova-aba {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      font-size: 16px;
+      color: white;
+      background-color: #000000;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .botao-nova-aba:hover {
+      background-color: #156cca;
+    }
+  </style>
+</head>
+<body>
+  <h1>Página do Jogo</h1>
+
+  <iframe src="game/index.html" name="jogo" title="Jogo"></iframe>
+
+  <br />
+
+  <a href="game/index.html" target="_blank" class="botao-nova-aba">
+    Abrir Jogo em Nova Aba
+  </a>
+</body>
+</html>
